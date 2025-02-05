@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Custom Title Bar -->
+        <div class="title-bar">
+            <div class="title">To-Do List</div>
+            <div class="window-controls">
+                <button id="minimize">—</button>
+                <button id="close">×</button>
+            </div>
+        </div>
+
+        <!-- Task Manager -->
+        <div class="container">
+            <h1>To-Do List</h1>
+            <input type="text" id="taskInput" placeholder="Enter a task...">
+            <button id="addTaskBtn">Add Task</button>
+            <ul id="taskList"></ul>
+            <button id="deleteCompletedBtn">Delete Completed Tasks</button>
+        </div>
+    </div>
+
+    <script src="renderer.js"></script>
+</body>
+</html>
