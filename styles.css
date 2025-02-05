@@ -149,3 +149,14 @@ li {
     background-color: #444; /* Slightly lighter dark background */
     border-radius: 10px;
 }
+/* Delete All Tasks Button */
+#deleteAllBtn {
+    margin-top: 15px;
+    width: 100%;
+    background-color: #ff4c4c;
+}
+
+    #deleteAllBtn:hover {
+        background-color: #ff1a1a;
+    }
+
